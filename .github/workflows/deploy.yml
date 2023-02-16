@@ -37,5 +37,5 @@ jobs:
     steps:
       - name: Output information
         run: |
-          echo "username (should be undefined): ${{ env.MONGODB_USERNAME }}"
-          echo "db name (should be defined): ${{ env.MONGODB_DB_NAME }}"
+          echo "username: ${{ env.MONGODB_USERNAME }}"
+          echo "db name: ${{ env.MONGODB_DB_NAME }}"
